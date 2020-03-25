@@ -14,7 +14,7 @@ app.get('/', (req, res) => res.send('Hello World!'))
 
 
 //---------Serve Static Files-------//
-app.use('static', express.static("public"));
+app.use('/static', express.static("public"));
 
 //-----------Routing in Express--------//
 //the arrow part is a call back function and it need that
