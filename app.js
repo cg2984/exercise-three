@@ -6,7 +6,7 @@ const port = 4000;
 
 //importing the routes by requiring it 
 const indexRoute = require('./routes/index.js');
-const aboutRoute = require('.routes/about.js');
+const aboutRoute = require('./routes/about.js');
 
 //the function recieves two arguements, the path and the arrow function
 //req = request res = response
